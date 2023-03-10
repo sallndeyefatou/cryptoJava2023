@@ -15,8 +15,8 @@ public interface Icrypto {
      * et de l'enregistrer dans le fichier spécifié.
      *
      * @param algo l'algorithme de chiffrement pour lequel la clé doit être générée
-     * @param filePath le chemin d'accès complet au fichier où la clé générée sera enregistrée
+     * @param keySize la taille de la clé
      * @return la clé secrète générée, ou null si une erreur s'est produite
      */
-    public SecretKey genKey(String algo, String filePath);
+    public SecretKey genKey(String algo, int keySize);
 }
