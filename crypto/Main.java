@@ -1,7 +1,9 @@
 package crypto;
 
 import javax.crypto.SecretKey;
-
+/**
+ * @author DIENG Khaly
+ */
 public class Main {
 
     public static void main(String[] args) {
