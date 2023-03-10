@@ -8,7 +8,6 @@ public class IcryptoImpl implements Icrypto {
 
     /**
      * Génère une clé secrète pour l'algorithme de chiffrement spécifié
-     * et l'enregistre dans le fichier spécifié.
      *
      * @param algo      l'algorithme de chiffrement pour lequel la clé doit être générée
      * @param keySize  la taille dela clé 

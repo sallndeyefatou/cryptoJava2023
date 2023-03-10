@@ -12,7 +12,6 @@ public interface Icrypto {
     
     /**
      * Cette méthode permet de générer une clé secrète pour l'algorithme de chiffrement spécifié
-     * et de l'enregistrer dans le fichier spécifié.
      *
      * @param algo l'algorithme de chiffrement pour lequel la clé doit être générée
      * @param keySize la taille de la clé
