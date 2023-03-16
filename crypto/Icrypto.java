@@ -18,4 +18,5 @@ public interface Icrypto {
      * @return la clé secrète générée, ou null si une erreur s'est produite
      */
     public SecretKey genKey(String algo, int keySize);
+    //////
 }
