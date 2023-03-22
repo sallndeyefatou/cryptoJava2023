@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Créer une instance de la classe IcryptoImpl
-        IcryptoImpl crypto = new IcryptoImpl();
+        Icrypto_Implement crypto = new Icrypto_Implement();
 
         // Générer une clé secrète pour l'algorithme AES et la taille de 128
         SecretKey key = crypto.genKey("AES", 128);
