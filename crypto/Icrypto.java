@@ -12,8 +12,8 @@ public interface Icrypto{
      */
     public SecretKey genKey(String algo, int keySize) throws NoSuchAlgorithmException;
 
-    //public String saveKey(SecretKey key, String filePath);
+    public String saveKey(SecretKey key, String filePath);
 
-    //public SecretKey getKey(String filePath);
+    public SecretKey getKey(String filePath);
 }
 
